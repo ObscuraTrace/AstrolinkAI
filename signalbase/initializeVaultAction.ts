@@ -3,10 +3,7 @@ import type { Wallet } from "@coinbase/coinbase-sdk"
 import type { ActionResult } from "./vaultActionHandler"
 import { VaultOperationsEngine } from "./vaultOperationsEngine"
 
-/**
- * Base58 regex without visually ambiguous chars
- * Adjust if your chain uses a different address format
- */
+
 const BASE58_REGEX = /^[1-9A-HJ-NP-Za-km-z]+$/
 
 /**
